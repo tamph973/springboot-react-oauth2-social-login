@@ -104,8 +104,10 @@ Ensure ` .env ` is listed in ` .gitignore `.
 
 ## Development
 
+```
 1. Run unit tests: `.\mvnw.cmd test`
 2. Run app in dev profile: set `SPRING_PROFILES_ACTIVE=local` in ` .env `.
+```
 
 ## Security / Leaked Secrets
 
