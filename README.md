@@ -57,11 +57,10 @@ social-login-oauth2/
 
 ## Features
 
-```
+
 1. OAuth2 login via `github` và `google`.
 2. Read configuration from environment variables (`.env`) mapped in `application.yaml`.
 3. Maven build, runnable as a standalone JAR or from IDE.
-```
 
 ## Requirements
 
