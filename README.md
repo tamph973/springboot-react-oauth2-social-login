@@ -4,16 +4,7 @@ Simple Spring Boot project providing OAuth2 login with GitHub and Google.
 
 ## Project structure
 
-social-login-oauth2/
-├── src/main/java/
-│ └── OauthApplication.java ← Main class
-├── src/main/resources/
-│ ├── application.yaml ← Config mapping .env
-│ └── application-local.yaml ← Local config
-├── .env.example ← Template biến môi trường
-├── .gitignore ← Đã có .env
-├── pom.xml ← Maven config
-└── mvnw.cmd ← Maven wrapper Windows
+social-login-oauth2/ ├─ HELP.md ├─ mvnw ├─ mvnw.cmd ├─ pom.xml ├─ README.md ├─ src/ │ ├─ main/ │ │ ├─ java/ │ │ │ └─ com/ │ │ │ └─ oauth/ │ │ │ ├─ OauthApplication.java │ │ │ ├─ config/ │ │ │ │ ├─ SecurityConfig.java │ │ │ │ └─ WebConfig.java │ │ │ └─ controller/ │ │ │ ├─ GeetingsController.java │ │ │ └─ UserController.java │ │ └─ resources/ │ │ ├─ application.yaml │ │ ├─ static/ │ │ └─ templates/ │ └─ test/ │ └─ java/ │ └─ com/ │ └─ oauth/ │ └─ OauthApplicationTests.java ├─ target/ (build output) │ ├─ classes/ │ ├─ generated-sources/ │ └─ test-classes/
 
 ## Features
 
